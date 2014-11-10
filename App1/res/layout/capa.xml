@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:orientation="vertical" >
+    <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+<com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+     <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+    
+     <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+<com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+     <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+     
+     <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+<com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+     <com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+</GridLayout>

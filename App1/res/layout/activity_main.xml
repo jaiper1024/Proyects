@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app1.MainActivity" 
+    android:background="@drawable/fondow">
+
+    
+    <com.example.app1.CapaConexiones
+        android:id="@+id/capaConexiones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+    
+<GridLayout
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignBottom="@+id/fondodetrabajo1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:columnCount="4"
+    android:orientation="vertical"
+    android:rowCount="4" >
+
+<com.example.app1.And 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="2"
+         android:layout_gravity="left|top"
+         android:layout_row="0" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_gravity="left|top"
+         android:layout_row="1" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_gravity="left|top"
+         android:layout_row="0" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_gravity="left|bottom"
+         android:layout_row="1" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="2"
+         android:layout_gravity="left|bottom"
+         android:layout_row="1" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_gravity="left|top"
+         android:layout_row="3" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_gravity="left|top"
+         android:layout_row="3" >
+     </com.example.app1.And>
+
+     <com.example.app1.And
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_column="2"
+         android:layout_gravity="left|top"
+         android:layout_row="3" >
+     </com.example.app1.And>
+
+</GridLayout>
+
+<com.example.app1.Fondodetrabajo
+    android:id="@+id/fondodetrabajo1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true" >
+</com.example.app1.Fondodetrabajo>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/capaConexiones"
+    android:layout_alignParentBottom="true" >
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/not2" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/and2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nand2" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/or2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nor2" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xnor2" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xor2" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tijeras2" />
+</LinearLayout>
+
+</RelativeLayout>

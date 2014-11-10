@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:src="@drawable/and" />
+
+    <com.example.app1.ConectorSalida
+        android:id="@+id/salida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="16dp" >
+    </com.example.app1.ConectorSalida>
+
+    <com.example.app1.ConectorEntrada
+        android:id="@+id/entradaA"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="9dp" >
+    </com.example.app1.ConectorEntrada>
+
+    <com.example.app1.ConectorEntrada
+        android:id="@+id/entradaB"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="30dp" >
+    </com.example.app1.ConectorEntrada>
+
+</AbsoluteLayout>
